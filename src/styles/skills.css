@@ -82,7 +82,7 @@ p img {
 }
 
 .scroll {
-  transition: all 0.7s 0s;
+  transition: all 0.7s 0s ease;
 }
 
 .skill:nth-child(2) {

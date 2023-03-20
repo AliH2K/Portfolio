@@ -71,7 +71,7 @@ body {
   background-color: inherit;
   border-radius: 0.5vw;
   color: #fff;
-  transition: all 0.2s 0s;
+  transition: all 0.2s 0s ease;
   width: 30%;
 }
 
@@ -100,7 +100,7 @@ body {
 
 .contact img {
   width: 1.8vw;
-  transition: transform 0.1s 0s;
+  transition: transform 0.1s 0s ease;
   cursor: pointer;
   filter: drop-shadow(0 0 10px #30475e);
   padding-top: 80%;
@@ -116,7 +116,7 @@ body {
   font-family: 'Raleway', sans-serif;
   left: 34.3%;
   font-size: 0.85vw;
-  transition: all 0.2s 0s ease-out;
+  transition: all 0.2s 0s ease;
   cursor: pointer;
 }
 
