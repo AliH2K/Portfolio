@@ -1,0 +1,92 @@
+#projects {
+  height: 850px;
+  background-color: #f05454;
+  font-family: 'Raleway', sans-serif;
+  overflow: auto;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
+}
+
+.project {
+  width: 80%;
+  height: 40%;
+  display: flex;
+  font-size: 1.5vw;
+  border-radius: 20px;
+  box-shadow: 11px 13px 36px 8px rgba(0, 0, 0, 0.75);
+}
+
+.project > img,
+.project > div {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project > div * {
+  padding-left: 1vw;
+}
+
+.weather > div {
+  border-radius: 20px 0 0 20px;
+  background-color: hsl(0, 0%, 87%);
+}
+
+.store > div {
+  border-radius: 0 20px 20px 0;
+  background-color: hsl(216, 18%, 16%);
+}
+
+.weather > img {
+  border-radius: 0 20px 20px 0;
+}
+
+.store > img {
+  border-radius: 20px 0 0 20px;
+}
+
+.project button {
+  border: solid 2px #f05454;
+  margin: 0 2%;
+  font-size: 1rem;
+  padding: 1% 6%;
+  background-color: inherit;
+  color: #fff;
+  transition: all 0.2s 0s;
+  font-family: inherit;
+}
+
+.weather button {
+  color: #000;
+}
+
+.project button:hover {
+  background-color: #f05454;
+  cursor: pointer;
+  color: #222831;
+}
+
+#source {
+  color: #f05454;
+  padding: 0;
+  border: none;
+  text-decoration: underline;
+  background-color: inherit;
+}
+
+.store.scrollH {
+  transform: translateX(20vw);
+}
+
+.store > div > p,
+.store > div > h1,
+.weather button:hover {
+  color: #fff;
+}

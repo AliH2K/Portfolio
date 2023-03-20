@@ -1,0 +1,147 @@
+@media (max-width: 1700px) {
+  .introText,
+  .image {
+    transform: scale(1.5) translateY(-10vw);
+  }
+
+  .image {
+    width: 30vh;
+  }
+}
+
+@media (max-height: 750px) {
+  .image {
+    width: 35vh;
+  }
+}
+
+@media (min-width: 1900px) {
+  #skills,
+  #projects {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 1100px) {
+  .skill {
+    width: 250px;
+  }
+
+  .skillContent {
+    font-size: 1rem;
+  }
+
+  p img {
+    width: 2vw;
+    height: 2vw;
+    width: 20px;
+    height: 20px;
+  }
+
+  .skill h1 {
+    font-size: 1.2rem;
+  }
+
+  .skillContent p {
+    width: 110px;
+  }
+
+  .goTop {
+    width: 8vw;
+    height: 8vw;
+    left: 90vw;
+  }
+}
+
+@media (max-width: 900px) {
+  #skills {
+    display: flex;
+    align-items: center;
+  }
+
+  .skillsFlex {
+    flex-direction: column;
+    justify-content: center;
+    transform: translateY(5vw);
+    justify-content: space-evenly;
+    height: 60%;
+    width: 100%;
+  }
+
+  .skill.scroll {
+    transition-delay: unset;
+  }
+}
+
+@media (max-width: 750px) {
+  #skills {
+    display: flex;
+    align-items: center;
+  }
+
+  .skillsFlex {
+    gap: unset;
+    justify-content: space-evenly;
+    height: 80%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) and (min-height: 550px) {
+  .image {
+    position: absolute;
+    width: 25vh;
+    transform: scale(1.5) translateY(-5vw);
+  }
+
+  .introText {
+    align-self: flex-start;
+    transform: scale(3);
+  }
+}
+
+@media (max-width: 1000px) {
+  #projects {
+    height: 1000px;
+  }
+
+  .project {
+    flex-direction: column;
+    width: 60%;
+    height: 40%;
+    position: relative;
+  }
+
+  .projectsContainer {
+    justify-content: space-evenly;
+  }
+
+  .project div,
+  .project img {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .project div {
+    border-radius: 0 0 20px 20px;
+  }
+
+  .project img {
+    border-radius: 20px 20px 0 0;
+  }
+
+  .weather img {
+    position: absolute;
+  }
+
+  .weather div {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .project h1 {
+    font-size: 1.3rem;
+  }
+}

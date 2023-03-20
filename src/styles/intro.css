@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#intro {
+  height: 100vh;
+  background-image: url(../resources/bg.svg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.typed-cursor {
+  color: #f05454;
+}
+
+.introFlex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  z-index: -1;
+}
+
+.image,
+.introText {
+  transform: translateY(-10vw);
+  align-self: flex-end;
+}
+
+.wave1 {
+  background-image: url(../resources/wave.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  aspect-ratio: 960/440;
+  position: absolute;
+  bottom: 0;
+}
+
+.introFlex > div {
+  height: 50%;
+  position: relative;
+  top: 10px;
+}
+
+.introText {
+  width: 30%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  transform: translateY(-13vw);
+}
+
+.text {
+  font-size: 2vw;
+  color: #fff;
+}
+
+.introButtons button {
+  border: solid 0.15vw #f05454;
+  margin: 0 2%;
+  font-size: 1.3vw;
+  padding: 0.5vw 0;
+  background-color: inherit;
+  border-radius: 0.5vw;
+  color: #fff;
+  transition: all 0.2s 0s;
+  width: 30%;
+}
+
+.introButtons button:hover {
+  background-color: #f05454;
+  cursor: pointer;
+  color: #222831;
+}
+
+.image {
+  width: 23vw;
+  z-index: 0;
+  filter: drop-shadow(0 0 1vw #30475e);
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+
+.contact a {
+  cursor: default;
+}
+
+.contact img {
+  width: 1.8vw;
+  transition: transform 0.1s 0s;
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px #30475e);
+  padding-top: 80%;
+}
+
+.contact img:hover {
+  transform: scale(1.2);
+}
+
+.email {
+  position: absolute;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  left: 34.3%;
+  font-size: 0.85vw;
+  transition: all 0.2s 0s ease-out;
+  cursor: pointer;
+}
+
+.hidden {
+  transform: translateY(3vh);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.copy {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  transform: translateY(50%);
+  background-color: #f05454;
+  border-radius: 1vw;
+  padding: 0.2vw 0;
+}

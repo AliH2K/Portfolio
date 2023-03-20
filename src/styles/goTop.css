@@ -1,0 +1,19 @@
+.goTopHidden {
+  visibility: hidden;
+}
+
+.goTop {
+  position: fixed;
+  background-color: #f05454;
+  width: 4vw;
+  height: 4vw;
+  z-index: 1000;
+  bottom: 5%;
+  left: 93%;
+  cursor: pointer;
+  border-radius: 50%;
+  border: solid 0.2vw #000;
+  background-image: url(../resources/icons/goTop.svg);
+  background-position: center;
+  background-size: contain;
+}
