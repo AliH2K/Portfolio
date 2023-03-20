@@ -117,7 +117,8 @@ body {
   font-family: 'Raleway', sans-serif;
   left: 34.3%;
   font-size: 0.85vw;
-  transition: transform 0.2s 0s ease;
+  transition: 0.2s 0s ease;
+  transition-property: transform, opacity, visibility;
   cursor: pointer;
 }
 
