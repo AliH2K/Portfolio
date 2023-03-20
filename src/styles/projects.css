@@ -59,7 +59,8 @@
   padding: 1% 6%;
   background-color: inherit;
   color: #fff;
-  transition: all 0.2s 0s ease;
+  transition: 0.2s 0s ease;
+  transition-property: transform, color;
   font-family: inherit;
 }
 

@@ -71,7 +71,8 @@ body {
   background-color: inherit;
   border-radius: 0.5vw;
   color: #fff;
-  transition: all 0.2s 0s ease;
+  transition: 0.2s 0s ease;
+  transition-property: transform, color, background;
   width: 30%;
 }
 
@@ -116,7 +117,7 @@ body {
   font-family: 'Raleway', sans-serif;
   left: 34.3%;
   font-size: 0.85vw;
-  transition: all 0.2s 0s ease;
+  transition: transform 0.2s 0s ease;
   cursor: pointer;
 }
 
