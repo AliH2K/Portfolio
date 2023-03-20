@@ -2,7 +2,7 @@
   height: 850px;
   background-color: #f05454;
   font-family: 'Raleway', sans-serif;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .projectsContainer {
@@ -61,6 +61,7 @@
   color: #fff;
   transition: 0.2s 0s ease;
   transition-property: transform, color;
+  will-change: transform, color;
   font-family: inherit;
 }
 
